@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LG VS 뉴스 브리핑</title>
+<style>
+:root{--bg:#fbfaf8;--panel:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e7e4df;--accent:#a50034;--accent-soft:#f6e7ec;--chip:#f1efeb}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--panel:#1c1c1f;--ink:#ececee;--muted:#9a9aa1;--line:#2c2c31;--accent:#ff5c8a;--accent-soft:#3a1f29;--chip:#26262b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Pretendard","Apple SD Gothic Neo","Noto Sans KR",sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:40px 16px 80px}
+.eyebrow{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700}
+h1{font-size:28px;line-height:1.3;margin:6px 0 6px}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;color:var(--muted);font-size:14px}
+select{font:inherit;font-size:14px;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px 8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-top:20px}
+.card h2{font-size:14px;margin:0 0 10px;color:var(--muted);font-weight:600}
+ul.points{margin:0;padding-left:20px}ul.points li{margin:6px 0}
+.topic{display:inline-block;font-size:13px;font-weight:700;background:var(--accent-soft);color:var(--accent);padding:3px 10px;border-radius:999px;margin:0 0 6px}
+.item{padding:12px 0;border-top:1px solid var(--line)}.item:first-of-type{border-top:none}
+.item .t{font-weight:650}.item p{margin:4px 0 6px}
+.links{display:flex;flex-wrap:wrap;gap:6px}
+.links a{font-size:13px;text-decoration:none;color:var(--ink);background:var(--chip);padding:3px 9px;border-radius:7px}
+.links a:hover{color:var(--accent)}
+.all ul{list-style:none;padding:0;margin:0}.all li{margin:9px 0}
+.all a{color:var(--ink)}.src{color:var(--muted);font-size:13px}
+.empty{color:var(--muted)}
+footer{color:var(--muted);font-size:13px;margin-top:32px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">LG Electronics VS Daily</div>
+  <h1 id="headline">LG전자 VS(전장) 뉴스 브리핑</h1>
+  <div class="bar"><span id="meta"></span><label>날짜 <select id="dates"></select></label></div>
+  <main id="main"><div class="card empty">불러오는 중…</div></main>
+  <footer>매일 오전 10시 전후 업데이트 · 요약은 자동 생성되어 오류가 있을 수 있으니 원문 링크를 확인하세요.</footer>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+
+async function getJSON(path){
+  const r = await fetch(path + "?v=" + Date.now());
+  if(!r.ok) throw new Error(path + " " + r.status);
+  return r.json();
+}
+
+function render(rep){
+  $("#headline").textContent = rep.headline || "LG전자 VS(전장) 뉴스 브리핑";
+  $("#meta").textContent = `${rep.date} · 기사 ${(rep.articles||[]).length}건`;
+  const byId = Object.fromEntries((rep.articles||[]).map(a => [a.id, a]));
+  let h = "";
+  if (rep.key_points?.length){
+    h += `<div class="card"><h2>핵심 요약</h2><ul class="points">${rep.key_points.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`;
+  }
+  for (const sec of rep.sections || []){
+    if (!sec.items?.length) continue;
+    h += `<div class="card"><span class="topic">${esc(sec.topic)}</span>`;
+    for (const it of sec.items){
+      const links = (it.article_ids||[]).map(i => byId[i]).filter(Boolean)
+        .map(a => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join("");
+      h += `<div class="item"><div class="t">${esc(it.title)}</div><p>${esc(it.summary)}</p><div class="links">${links}</div></div>`;
+    }
+    h += `</div>`;
+  }
+  if (rep.watch?.length){
+    h += `<div class="card"><h2>해외영업 관점 시사점</h2><ul class="points">${rep.watch.map(p=>`<li>${esc(p)}</li>`).join("")}</ul></div>`;
+  }
+  if (rep.articles?.length){
+    h += `<div class="card all"><h2>수집한 기사 전체</h2><ul>${rep.articles.map(a =>
+      `<li><a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.title)}</a><br><span class="src">${esc(a.source)} · ${esc(a.published||"")}</span></li>`).join("")}</ul></div>`;
+  } else {
+    h += `<div class="card empty">이 날은 수집된 VS(전장) 기사가 없어요.</div>`;
+  }
+  $("#main").innerHTML = h;
+}
+
+async function load(date){
+  try { render(await getJSON(`reports/${date}.json`)); history.replaceState(null, "", "#" + date); }
+  catch(e){ $("#main").innerHTML = `<div class="card empty">${esc(date)} 리포트를 불러오지 못했어요.</div>`; }
+}
+
+(async () => {
+  let list = [];
+  try { list = (await getJSON("reports/index.json")).dates || []; } catch(e) {}
+  if (!list.length){
+    $("#main").innerHTML = `<div class="card empty">첫 리포트는 다음 오전 10시 전후에 올라와요.</div>`;
+    $("#dates").parentElement.style.display = "none";
+    return;
+  }
+  $("#dates").innerHTML = list.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join("");
+  const want = decodeURIComponent(location.hash.slice(1));
+  const start = list.includes(want) ? want : list[0];
+  $("#dates").value = start;
+  $("#dates").onchange = e => load(e.target.value);
+  load(start);
+})();
+</script>
+</body>
+</html>
