@@ -117,6 +117,16 @@
       "why": "인포테인먼트·차량 전장에서 현대차그룹 밖 글로벌 OEM 수주 경쟁이 본격화된다는 신호다. 슬로바키아·헝가리 등 유럽 생산 거점을 가진 만큼 유럽 OEM 입찰에서 마주칠 가능성이 커진다."
     },
     {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery) 유럽 현지 생산 차량에 에어백 제어기 공급 수주",
+      "url": "https://autonews.gasgoo.com/articles/news/aumovio-wins-chery-acu-nomination-plans-local-production-and-delivery-in-europe-2110986022803709953",
+      "date": "2026-10-15",
+      "source": "Gasgoo (AUMOVIO 발표)",
+      "summary": "파리 모터쇼에서 체리가 유럽에서 생산할 차량용 에어백 제어기(ACU)를 AUMOVIO에 맡기기로 했다. 루마니아 티미쇼아라 공장에서 만들어 현지에 공급하며, 협력 범위를 체리의 다른 제품군으로 넓힐 가능성도 언급됐다.",
+      "why": "제품은 LG VS와 겹치지 않지만, 유럽 현지 생산을 늘리는 중국 OEM에 '유럽에서 만들어 바로 공급'하는 방식으로 먼저 자리를 잡고 있다. 체리 같은 유럽 진출 중국 OEM은 인포테인먼트·텔레매틱스 신규 고객 후보라, 경쟁사의 선점 속도를 지켜볼 필요가 있다."
+    },
+    {
       "company": "Bosch",
       "level": "mid",
       "title": "2026년 상반기 실적: 전망 유지 (모빌리티 수익성 하락)",
@@ -125,17 +135,7 @@
       "source": "Bosch 보도자료",
       "summary": "모빌리티 부문 상반기 매출은 278억 유로로 소폭 줄었고 영업이익률은 4.7%로 낮아졌다. 보도자료 사진 설명에는 메르세데스-벤츠 대형 수주와 퀄컴과의 콕핏·ADAS 통합 플랫폼 협력이 언급됐지만, 본문에 세부 내용은 없다.",
       "why": "수익성 압박 속에서도 콕핏과 ADAS를 하나의 컴퓨터로 묶는 통합 플랫폼을 밀고 있어, 단독 인포테인먼트 헤드유닛 수요를 잠식할 수 있다. 메르세데스 수주 범위는 별도 확인이 필요하다."
-    },
-    {
-      "company": "Continental",
-      "level": "low",
-      "title": "신형 볼보 EX60에 Continental 타이어 장착",
-      "url": "https://www.continental.com/en/press/press-releases/oe-volvo-ex60/",
-      "date": "2026-10-14",
-      "source": "Continental 보도자료",
-      "summary": "볼보의 신형 전기 SUV EX60에 Continental 타이어가 신차용으로 공급된다. 최근 Continental 보도자료는 대부분 타이어 관련이다.",
-      "why": "전장 제품과 직접 경쟁하는 소식은 아니다. 다만 볼보 같은 유럽 OEM 신차 일정 정보로 참고할 만하다."
     }
   ],
-  "competitors_note": "Continental의 차량 전자(인포테인먼트·디스플레이 등) 사업은 2025년 AUMOVIO로 분사되어, Continental 보도자료에는 주로 타이어 소식이 올라와요. 전장 경쟁사로 보려면 AUMOVIO 보도자료를 함께 보는 걸 추천해요. 현대모비스 보도자료 페이지는 자동 수집이 되지 않아 언론 기사로 대신했어요."
+  "competitors_note": "현대모비스 보도자료 페이지는 자동 수집이 되지 않아 언론 기사로 대신했어요."
 }
