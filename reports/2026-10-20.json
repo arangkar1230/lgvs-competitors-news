@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-20",
+  "headline": "ITS 세계총회서 V2X·V2N 통합 안전 솔루션 공개",
+  "key_points": [
+    "강릉 ITS 세계총회(10/19부터 5일간)에서 V2X와 V2N 통신을 결합한 교통안전 솔루션을 공개하고, 약 2.6km 실제 도로에서 시승 시연을 진행했다.",
+    "고장·정차 차량, 도로공사, 악천후, 구급차 접근, 보행자 충돌 위험을 운전자에게 미리 알리는 방식이며, 회사는 Euro NCAP 최고 등급 기준을 충족한다고 밝혔다.",
+    "유럽 완성차 양산 모델에 5G R16 기반 스마트 텔레매틱스를 업계 최초로 적용했고, 제네시스 GV90에는 원격 제어·무선 업데이트용 통신 제어 시스템을 공급한다.",
+    "2G~5G를 모두 지원하는 차세대 하이브리드 eCall도 소개했는데, 유럽·중국·중동의 차량 긴급호출 의무화 흐름을 겨냥한 제품이다."
+  ],
+  "sections": [
+    {
+      "topic": "제품·기술(인포테인먼트·텔레매틱스·SDV)",
+      "items": [
+        {
+          "title": "V2X·V2N 결합 교통안전 솔루션 실도로 시연",
+          "summary": "근거리 직접 통신(V2X)으로 빠르게 반응하고, 이동통신망(V2N)으로 넓은 지역을 커버해 통신 환경이 바뀌어도 위험 정보가 끊기지 않도록 했다.",
+          "article_ids": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "title": "차세대 하이브리드 eCall 공개",
+          "summary": "사고 시 자동으로 긴급 구조를 요청하는 eCall을 2G부터 5G까지 지원하도록 만들어, 지역별 통신망 차이와 의무화 규제에 동시에 대응한다.",
+          "article_ids": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "수주·고객사(OEM)",
+      "items": [
+        {
+          "title": "유럽 OEM 5G 텔레매틱스·제네시스 GV90 공급 사례 소개",
+          "summary": "이름이 공개되지 않은 유럽 완성차의 양산차에 5G R16 텔레매틱스를 적용한 사례와, GV90 통신 제어 시스템 공급을 함께 강조했다. 텔레매틱스 세계 1위 점유율은 시장조사 보고서를 인용한 회사 측 추정이다.",
+          "article_ids": [
+            1,
+            2,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "watch": [
+    "유럽 eCall 차세대 전환 규제 일정에 맞춰, 2G~5G 하이브리드 eCall을 유럽 OEM 제안의 규제 대응 포인트로 쓸 수 있다.",
+    "Euro NCAP 최고 등급 기준 충족은 유럽 고객사의 안전 평가 목표와 바로 연결되는 영업 메시지다.",
+    "공개되지 않은 유럽 OEM의 5G R16 양산 적용 사례는 다른 유럽 완성차 대상 레퍼런스로 활용 범위를 확인해 볼 만하다."
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "교통사고 방지하는 모빌리티 기술로 글로벌 교통안전 솔루션 시장 공략",
+      "url": "https://www.lg.co.kr/media/release/30690",
+      "source": "LG 공식 보도자료",
+      "published": "10.20"
+    },
+    {
+      "id": 2,
+      "title": "LG전자, ITS 세계총회서 V2X·V2N 통합 교통안전 솔루션 공개",
+      "url": "https://zdnet.co.kr/view/?no=20261020085925",
+      "source": "ZDNet Korea",
+      "published": "10.20 10:00"
+    },
+    {
+      "id": 3,
+      "title": "LG전자 ‘V2X·V2N 결합’ 교통안전 기술 공개",
+      "url": "https://biz.heraldcorp.com/article/10908516",
+      "source": "헤럴드경제",
+      "published": "10.20"
+    },
+    {
+      "id": 4,
+      "title": "LG Electronics unveils next-generation traffic safety tech combining V2X and V2N",
+      "url": "https://biz.heraldcorp.com/article/10908075",
+      "source": "The Herald Business",
+      "published": "10.20"
+    },
+    {
+      "id": 5,
+      "title": "\"고장차·공사구간 척척\"…LG, 사고 막는 차세대 'V2X' 공개",
+      "url": "https://www.sentv.co.kr/article/view/sentv202610200037",
+      "source": "서울경제TV",
+      "published": "10.20"
+    },
+    {
+      "id": 6,
+      "title": "LG전자, 교통사고 막는 모빌리티 솔루션 강릉 ITS 총회서 시연",
+      "url": "https://m.sedaily.com/article/20103881",
+      "source": "서울경제",
+      "published": "10.20"
+    }
+  ]
+}
