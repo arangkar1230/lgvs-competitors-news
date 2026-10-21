@@ -70,7 +70,7 @@ a{color:inherit}
 .topic{margin-top:14px;background:var(--sheet);border:1px solid var(--hair);border-top:5px solid var(--c);border-radius:4px 4px 14px 14px;padding:4px 18px 8px}
 .topic .tag{display:inline-flex;align-items:center;gap:6px;margin:12px 0 2px;font-weight:800;font-size:13px;letter-spacing:.04em;color:var(--c)}
 .topic .tag small{font-weight:500;color:var(--muted);font-size:12px}
-.story{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:14px 0;border-top:1px dashed var(--hair)}
+.story{padding:14px 0;border-top:1px dashed var(--hair)}
 .story:first-of-type{border-top:0}
 .thumb{width:64px;height:64px;border-radius:16px;background:var(--c);display:grid;place-items:center;font-size:30px;position:relative;overflow:hidden}
 .thumb::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.45),transparent 55%)}
@@ -125,7 +125,6 @@ a{color:inherit}
 
 .empty{background:var(--sheet);border:1px dashed var(--hair);border-radius:14px;padding:22px;text-align:center;color:var(--muted)}
 footer{margin-top:40px;padding-top:10px;border-top:3px double var(--rule);font-size:13px;color:var(--muted);text-align:center}
-@media (max-width:420px){.story{grid-template-columns:52px 1fr;gap:12px}.thumb{width:52px;height:52px;font-size:25px;border-radius:13px}}
 </style>
 </head>
 <body>
@@ -224,7 +223,7 @@ function render(rep){
       for (const it of sec.items){
         const links = (it.article_ids||[]).map(i => byId[i]).filter(Boolean)
           .map(a => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join("");
-        h += `<article class="story"><div class="thumb" aria-hidden="true">${storyEmoji(it, st.emoji)}</div><div>`
+        h += `<article class="story"><div>`
           + `<h3>${esc(it.title)}</h3><p>${esc(it.summary)}</p>${links ? `<div class="srcs">${links}</div>` : ""}</div></article>`;
       }
       h += `</section>`;
