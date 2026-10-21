@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16",
+  "headline": "오늘은 새 VS 소식이 없어요",
+  "key_points": [],
+  "sections": [],
+  "competitors": [
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "HARMAN Ready Aware, AutoTech Breakthrough '올해의 운전자 안전 솔루션' 선정",
+      "url": "https://news.harman.com/releases/harman-ready-aware-recognized-as-driver-safety-solution-of-the-year-by-autotech-breakthrough",
+      "date": "2026-10-15",
+      "source": "HARMAN 보도자료",
+      "summary": "클라우드 기반 V2N SaaS로 고장 차량, 급제동, 미끄러운 노면, 차로 통제, 신호 변경 등을 거의 실시간으로 경고한다. 별도 센서나 통신 하드웨어 없이 기존 4G/5G 연결만으로 쓸 수 있고, Euro NCAP 평가 항목 대응을 내세웠다.",
+      "why": "LG가 텔레매틱스와 V2X로 공략하는 교통안전 경고 영역과 기능·메시지(Euro NCAP)가 겹친다. '하드웨어 추가 없이 소프트웨어로'라는 접근은 하드웨어 강점의 LG와 다른 축이라, 유럽 OEM 제안 시 통합 가치를 분명히 설명할 필요가 있다."
+    },
+    {
+      "company": "현대모비스",
+      "level": "high",
+      "title": "R&D 테크데이서 홀로그래픽 윈드실드 디스플레이 등 신기술 60여 종 공개",
+      "url": "https://www.etoday.co.kr/news/view/2623873",
+      "date": "2026-09-10",
+      "source": "이투데이",
+      "summary": "CES 혁신상을 받은 홀로그래픽 윈드실드 디스플레이, 가상현실 HUD, 프리미엄 오디오 등 차세대 인포테인먼트와 자율주행·주차 통합 제어기를 선보였다. 행사 기간 북미·아시아 고객사가 방문해 수주·기술 협력을 논의했다.",
+      "why": "앞유리 전체를 화면으로 쓰는 방향은 LG가 KES 2026에서 선보인 투명 OLED 윈드실드와 겹친다. 현대차그룹 밖 글로벌 고객을 겨냥하고 있어 차세대 콕핏 디스플레이 제안에서 맞붙을 수 있다."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery) 유럽 현지 생산 차량에 에어백 제어기 공급 수주",
+      "url": "https://autonews.gasgoo.com/articles/news/aumovio-wins-chery-acu-nomination-plans-local-production-and-delivery-in-europe-2110986022803709953",
+      "date": "2026-10-15",
+      "source": "Gasgoo (AUMOVIO 발표)",
+      "summary": "파리 모터쇼에서 체리가 유럽에서 생산할 차량용 에어백 제어기(ACU)를 AUMOVIO에 맡기기로 했다. 루마니아 티미쇼아라 공장에서 만들어 현지에 공급하며, 협력 범위를 체리의 다른 제품군으로 넓힐 가능성도 언급됐다.",
+      "why": "제품은 LG VS와 겹치지 않지만, 유럽 현지 생산을 늘리는 중국 OEM에 '유럽에서 만들어 바로 공급'하는 방식으로 먼저 자리를 잡고 있다. 체리 같은 회사는 인포테인먼트·텔레매틱스 신규 고객 후보라 선점 속도를 지켜볼 필요가 있다."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "2026년 상반기 실적: 전망 유지 (모빌리티 수익성 하락)",
+      "url": "https://www.bosch-presse.de/pressportal/de/en/half-year-figures-2026-bosch-reaffirms-outlook-285632.html",
+      "date": "2026-09-23",
+      "source": "Bosch 보도자료",
+      "summary": "모빌리티 부문 상반기 매출은 278억 유로로 소폭 줄었고 영업이익률은 4.7%로 낮아졌다. 차량 생산 부진과 전동화 확산 지연을 이유로 비용 절감과 구조 조정을 이어가고 있다.",
+      "why": "수익성 압박 속 비용 절감에 나선 만큼 유럽 입찰에서 가격 경쟁이 거세질 수 있다. 보도자료 이미지에 언급된 메르세데스-벤츠 대형 수주는 지난 5월 발표된 전기모터 건이라 LG VS 제품과 직접 겹치지는 않는다."
+    }
+  ],
+  "competitors_note": "지난 기록은 각 날짜에 이미 나와 있던 소식만 골라 나중에 정리했어요. 현대모비스는 보도자료 페이지 대신 언론 기사를 썼어요.",
+  "watch": [
+    "HARMAN Ready Aware처럼 하드웨어 없이 소프트웨어로 안전 경고를 제공하는 방식이 Euro NCAP 대응 수단으로 부각되고 있다."
+  ],
+  "articles": []
+}

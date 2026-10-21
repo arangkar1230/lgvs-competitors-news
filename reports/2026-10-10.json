@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-10",
+  "headline": "제네시스 GV90에 차량 솔루션 6종 일괄 공급",
+  "key_points": [
+    "제네시스 GV90에 24.6인치 메인 디스플레이(정차 시 90mm 상승), 인포테인먼트, 13.2인치 OLED 후석 엔터테인먼트, 8인치 콘솔 터치스크린, 콘텐츠 플랫폼, 통신 제어기 2.0 등 6종을 공급한다.",
+    "인포테인먼트는 현대차그룹의 Pleos Connect OS와 Gleo AI 음성비서로 돌아가고, 통신 제어기는 TÜV 라인란드로부터 기능안전 최고 등급인 ASIL D 인증을 받았다.",
+    "3분기 잠정실적에서 회사는 VS가 수주잔고의 매출 전환과 프리미엄 인포테인먼트 비중 확대로 안정적으로 성장했다고 밝혔다.",
+    "반면 일부 언론은 3분기 실적이 기대에 못 미친 이유 중 하나로 전장 사업의 매출 인식 지연을 꼽았다. 사업본부별 수치는 이달 말 공개된다."
+  ],
+  "sections": [
+    {
+      "topic": "수주·고객사(OEM)",
+      "items": [
+        {
+          "title": "제네시스 GV90에 디스플레이부터 통신 제어기까지 6종 공급",
+          "summary": "올라오는 대형 메인 디스플레이와 후석 OLED 엔터테인먼트, 원격·무선 업데이트를 맡는 통신 제어기까지 실내 핵심 전장을 한꺼번에 맡았다.",
+          "article_ids": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "실적·전망",
+      "items": [
+        {
+          "title": "3분기 잠정실적: VS는 '안정적 성장'",
+          "summary": "회사는 수주잔고가 매출로 순조롭게 바뀌고 프리미엄 인포테인먼트 비중이 늘면서 VS가 B2B 현금창출원 역할을 이어갔다고 밝혔다.",
+          "article_ids": [
+            1,
+            2
+          ]
+        },
+        {
+          "title": "실적 부진 요인으로 '전장 매출 인식 지연' 거론",
+          "summary": "이투데이는 3분기 실적이 기대를 밑돈 이유 중 하나로 전장 사업의 매출 인식 지연을 들었다. 구체적인 수치나 시점은 제시하지 않았다.",
+          "article_ids": [
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "자동차 소프트웨어 마켓플레이스 'SDVerse' 합류",
+      "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions",
+      "date": "2026-09-15",
+      "source": "HARMAN 보도자료",
+      "summary": "완성차가 SDV용 소프트웨어를 고르는 B2B 마켓에 차량용 앱스토어, 디지털 콕핏용 하이퍼바이저, 칩에 구애받지 않는 콕핏 미들웨어, HMI 설계·검증 서비스를 올렸다.",
+      "why": "콕핏 소프트웨어를 하드웨어와 떼어 따로 파는 전략이라, 하드웨어와 소프트웨어를 묶어 공급하는 LG와 정면으로 겹친다. 유럽 OEM이 소프트웨어를 따로 조달할 때 경쟁이 붙을 수 있다."
+    },
+    {
+      "company": "현대모비스",
+      "level": "high",
+      "title": "R&D 테크데이서 홀로그래픽 윈드실드 디스플레이 등 신기술 60여 종 공개",
+      "url": "https://www.etoday.co.kr/news/view/2623873",
+      "date": "2026-09-10",
+      "source": "이투데이",
+      "summary": "CES 혁신상을 받은 홀로그래픽 윈드실드 디스플레이, 가상현실 HUD, 프리미엄 오디오 등 차세대 인포테인먼트와 자율주행·주차 통합 제어기를 선보였다. 행사 기간 북미·아시아 고객사가 방문해 수주·기술 협력을 논의했다.",
+      "why": "앞유리를 화면으로 쓰는 차세대 디스플레이와 인포테인먼트를 현대차그룹 밖 글로벌 고객에게 내세우고 있어, 차량용 디스플레이·인포테인먼트 제안에서 LG와 맞붙을 수 있다."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "상용차 텔레매틱스 단말 'VDO Link', 유럽 전자통행료(EETS) 인증",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20260923-eets-certification-vdo-link.html",
+      "date": "2026-09-23",
+      "source": "AUMOVIO 보도자료",
+      "summary": "디지털 타코그래프·클라우드와 연동하는 플러그앤플레이 텔레매틱스 단말이 유럽 통행료 서비스 인증을 받았다. 프랑스·독일·폴란드 통행료 체계와 검증을 마쳤고 상용차 플릿 사업자를 겨냥한다.",
+      "why": "완성차 순정 텔레매틱스가 중심인 LG와 시장은 다르지만, 유럽 인증을 지렛대로 커넥티비티 사업을 넓히는 방식은 눈여겨볼 만하다. 상용차 SDV로 영역을 넓히는 LG와 접점이 생길 수 있다."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "2026년 상반기 실적: 전망 유지 (모빌리티 수익성 하락)",
+      "url": "https://www.bosch-presse.de/pressportal/de/en/half-year-figures-2026-bosch-reaffirms-outlook-285632.html",
+      "date": "2026-09-23",
+      "source": "Bosch 보도자료",
+      "summary": "모빌리티 부문 상반기 매출은 278억 유로로 소폭 줄었고 영업이익률은 4.7%로 낮아졌다. 차량 생산 부진과 전동화 확산 지연을 이유로 비용 절감과 구조 조정을 이어가고 있다.",
+      "why": "수익성 압박 속 비용 절감에 나선 만큼 유럽 입찰에서 가격 경쟁이 거세질 수 있다. 보도자료 이미지에 언급된 메르세데스-벤츠 대형 수주는 지난 5월 발표된 전기모터 건이라 LG VS 제품과 직접 겹치지는 않는다."
+    }
+  ],
+  "competitors_note": "지난 기록은 각 날짜에 이미 나와 있던 소식만 골라 나중에 정리했어요. 현대모비스는 보도자료 페이지 대신 언론 기사를 썼어요.",
+  "watch": [
+    "GV90처럼 디스플레이·인포테인먼트·후석 엔터테인먼트·통신 제어기를 한꺼번에 공급한 사례는 '콕핏 통합 공급' 레퍼런스로 유럽 프리미엄 OEM 제안에 쓸 만하다.",
+    "HARMAN이 콕핏 소프트웨어를 따로 파는 전략을 펴는 만큼, 하드웨어와 소프트웨어를 묶어 공급하는 장점을 설명할 근거를 준비해 둘 필요가 있다.",
+    "전장 매출 인식 지연이 언급된 만큼, 이달 말 사업본부별 실적에서 VS 매출·이익을 확인해야 한다."
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "3분기 영업이익 전년 比 13.5% ↑",
+      "url": "https://www.lg.co.kr/media/release/30649",
+      "source": "LG 공식 보도자료",
+      "published": "10.07"
+    },
+    {
+      "id": 2,
+      "title": "LG전자 누적 영업익 첫 4조 돌파…3분기는 기대치 하회",
+      "url": "https://www.mt.co.kr/industry/2026/10/07/2026100711163658214",
+      "source": "머니투데이",
+      "published": "10.07 11:35"
+    },
+    {
+      "id": 3,
+      "title": "LG Electronics Brings Integrated Next-Generation Vehicle Solutions to Genesis GV90",
+      "url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-electronics-brings-integrated-next-generation-vehicle-solutions-to-genesis-gv90/",
+      "source": "LG Newsroom",
+      "published": "10.08"
+    },
+    {
+      "id": 4,
+      "title": "LG Electronics supplies six cabin systems for Genesis GV90",
+      "url": "https://www.automotiveworld.com/news/lg-electronics-supplies-six-cabin-systems-for-genesis-gv90/",
+      "source": "Automotive World",
+      "published": "10.08"
+    },
+    {
+      "id": 5,
+      "title": "LG전자, 실적 충격 속 이틀 새 14% 하락…AI 냉각·로봇에 쏠린 시선",
+      "url": "https://www.etoday.co.kr/news/view/2633981",
+      "source": "이투데이",
+      "published": "10.08 17:00"
+    }
+  ]
+}

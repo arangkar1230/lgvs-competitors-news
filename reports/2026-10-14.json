@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-14",
+  "headline": "닛산 북미 공급사 행사서 '모노즈쿠리' 인증",
+  "key_points": [
+    "LG전자 북미법인 VS 조직이 9월 23일 미국 내슈빌에서 열린 닛산 북미 공급사 감사 행사에서 'Monozukuri Spirit Performance Award' 최종 후보에 올랐다.",
+    "지역 부문 'Monozukuri Spirit' 인증서도 함께 받았다.",
+    "회사는 글로벌 생산망을 통한 현지화 생산 지원을 인정받았다고 소개했다. 1년 전에는 닛산 본사로부터 인포테인먼트와 차량용 컴퓨팅 플랫폼으로 상을 받았다."
+  ],
+  "sections": [
+    {
+      "topic": "수주·고객사(OEM)",
+      "items": [
+        {
+          "title": "닛산 북미, LG를 '모노즈쿠리' 우수 공급사로 인정",
+          "summary": "제조 품질과 협업을 평가하는 닛산의 공급사 인정 프로그램에서 최종 후보와 지역 부문 인증을 받아, 일본계 OEM과의 공급 신뢰를 보여줬다.",
+          "article_ids": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "자동차 소프트웨어 마켓플레이스 'SDVerse' 합류",
+      "url": "https://news.harman.com/releases/harman-joins-sdverse-marketplace-expanding-access-to-automotive-software-and-engineering-solutions",
+      "date": "2026-09-15",
+      "source": "HARMAN 보도자료",
+      "summary": "완성차가 SDV용 소프트웨어를 고르는 B2B 마켓에 차량용 앱스토어, 디지털 콕핏용 하이퍼바이저, 칩에 구애받지 않는 콕핏 미들웨어, HMI 설계·검증 서비스를 올렸다.",
+      "why": "콕핏 소프트웨어를 하드웨어와 떼어 따로 파는 전략이라, 하드웨어와 소프트웨어를 묶어 공급하는 LG와 정면으로 겹친다. 유럽 OEM이 소프트웨어를 따로 조달할 때 경쟁이 붙을 수 있다."
+    },
+    {
+      "company": "현대모비스",
+      "level": "high",
+      "title": "R&D 테크데이서 홀로그래픽 윈드실드 디스플레이 등 신기술 60여 종 공개",
+      "url": "https://www.etoday.co.kr/news/view/2623873",
+      "date": "2026-09-10",
+      "source": "이투데이",
+      "summary": "CES 혁신상을 받은 홀로그래픽 윈드실드 디스플레이, 가상현실 HUD, 프리미엄 오디오 등 차세대 인포테인먼트와 자율주행·주차 통합 제어기를 선보였다. 행사 기간 북미·아시아 고객사가 방문해 수주·기술 협력을 논의했다.",
+      "why": "앞유리 전체를 화면으로 쓰는 방향은 LG가 KES 2026에서 선보인 투명 OLED 윈드실드와 겹친다. 현대차그룹 밖 글로벌 고객을 겨냥하고 있어 차세대 콕핏 디스플레이 제안에서 맞붙을 수 있다."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "상용차 텔레매틱스 단말 'VDO Link', 유럽 전자통행료(EETS) 인증",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20260923-eets-certification-vdo-link.html",
+      "date": "2026-09-23",
+      "source": "AUMOVIO 보도자료",
+      "summary": "디지털 타코그래프·클라우드와 연동하는 플러그앤플레이 텔레매틱스 단말이 유럽 통행료 서비스 인증을 받았다. 프랑스·독일·폴란드 통행료 체계와 검증을 마쳤고 상용차 플릿 사업자를 겨냥한다.",
+      "why": "완성차 순정 텔레매틱스가 중심인 LG와 시장은 다르지만, 유럽 인증을 지렛대로 커넥티비티 사업을 넓히는 방식은 눈여겨볼 만하다. 상용차 SDV로 영역을 넓히는 LG와 접점이 생길 수 있다."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "2026년 상반기 실적: 전망 유지 (모빌리티 수익성 하락)",
+      "url": "https://www.bosch-presse.de/pressportal/de/en/half-year-figures-2026-bosch-reaffirms-outlook-285632.html",
+      "date": "2026-09-23",
+      "source": "Bosch 보도자료",
+      "summary": "모빌리티 부문 상반기 매출은 278억 유로로 소폭 줄었고 영업이익률은 4.7%로 낮아졌다. 차량 생산 부진과 전동화 확산 지연을 이유로 비용 절감과 구조 조정을 이어가고 있다.",
+      "why": "수익성 압박 속 비용 절감에 나선 만큼 유럽 입찰에서 가격 경쟁이 거세질 수 있다. 보도자료 이미지에 언급된 메르세데스-벤츠 대형 수주는 지난 5월 발표된 전기모터 건이라 LG VS 제품과 직접 겹치지는 않는다."
+    }
+  ],
+  "competitors_note": "지난 기록은 각 날짜에 이미 나와 있던 소식만 골라 나중에 정리했어요. 현대모비스는 보도자료 페이지 대신 언론 기사를 썼어요.",
+  "watch": [
+    "닛산 북미의 인정은 일본계 OEM 공급 품질 레퍼런스로, 유럽에 진출한 일본 OEM이나 르노-닛산 얼라이언스 대상 제안의 근거 자료로 쓸 수 있다.",
+    "1년 전 닛산 본사의 인포테인먼트·컴퓨팅 플랫폼 수상 이력과 묶어 '신뢰할 수 있는 콕핏 공급사' 메시지로 정리해 둘 만하다."
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Inside LG's Latest Recognition From Nissan North America: Bringing the Monozukuri Philosophy to Life",
+      "url": "https://www.lg.com/global/newsroom/lg-story/beyond-news/inside-lgs-latest-recognition-from-nissan-north-america-bringing-the-monozukuri-philosophy-to-life/",
+      "source": "LG Newsroom",
+      "published": "10.14"
+    }
+  ]
+}
