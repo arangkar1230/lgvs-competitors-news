@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-21",
+  "headline": "ITS 총회서 토요타 등과 협력형 V2X 공동선언 추진",
+  "key_points": [
+    "LG전자는 해외용 영문 보도자료에서, 강릉 ITS 세계총회에서 Euro NCAP 협력형 안전 시나리오에 맞춘 V2X·V2N 통합 안전 플랫폼을 처음 시연한다고 밝혔다. '최초'는 회사 내부 조사에 근거한 주장이다.",
+    "토요타, 지역 ITS 협회들과 '무사고 사회를 향하여' 세션에 함께 나서고, 참여자들은 협력형 V2X 확산과 NCAP 안전 기준 연계를 담은 공동선언을 낼 계획이다.",
+    "실도로 시연은 10/20~22에 진행되며, LG 텔레매틱스 하드웨어·V2X 장치·보행자 앱으로 가려진 교차로 위험과 보행자·자전거 감지를 보여 준다. 10/22에는 글로벌 완성차를 대상으로 한 V2N 활용 세션이 열린다.",
+    "국내 후속 보도는 2.6km 시승 시연, 고장 차량·공사·구급차 접근 경고, Euro NCAP 최고 등급 기준 충족 등 어제 공개된 내용을 다시 전했다."
+  ],
+  "sections": [
+    {
+      "topic": "파트너십·전시회",
+      "items": [
+        {
+          "title": "토요타·ITS 협회와 '무사고 사회' 세션 및 공동선언",
+          "summary": "LG는 세션에서 글로벌 검증 경험과 Euro NCAP 요구에 맞춘 협력형 V2X 활용 사례를 공유한다. 공동선언에는 SDV 구조 확대, OTA 서비스 강화, 협력형 V2X 확산, NCAP 기준 연계가 우선 과제로 담길 예정이다.",
+          "article_ids": [1]
+        }
+      ]
+    },
+    {
+      "topic": "제품·기술(인포테인먼트·텔레매틱스·SDV)",
+      "items": [
+        {
+          "title": "V2X·V2N 통합 안전 플랫폼 실도로 시연 계속",
+          "summary": "근거리 직접 통신(V2X)과 클라우드 기반 V2N을 묶고, 메시지 보안과 통신 품질 관리를 포함했다. V2N 서버는 5GAA와 ITS Korea 표준을 바탕으로 만들었다.",
+          "article_ids": [1, 2, 3]
+        }
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "company": "현대모비스",
+      "level": "high",
+      "title": "유럽 현지 생산 확대 앞세워 유럽 완성차 신규 수주 공략…볼프스부르크 IZB서 AR HUD·슬라이딩 디스플레이 공개",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261021010006713",
+      "date": "2026-10-20",
+      "source": "아시아투데이",
+      "summary": "체코에 더해 올해 헝가리·스페인·슬로바키아 공장을 잇달아 가동하며 유럽 완성차 신규 수주를 노린다. 10/27~29 독일 볼프스부르크 부품 전시회 IZB 2026에서 3D AR HUD와 12월 양산 예정인 슬라이딩 디스플레이 등을 선보인다.",
+      "why": "폭스바겐 본거지에서 열리는 전시회에 차량 디스플레이를 들고 나와, LG VS의 유럽 디스플레이·콕핏 영업과 직접 겹친다. 기사에서 업계는 유럽 OEM이 '현지 공급 안정성과 원가 경쟁력'을 중시한다고 짚었는데, 현지 생산 거점 수에서 LG보다 앞서는 부분이다."
+    },
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "HARMAN Ready Aware, AutoTech Breakthrough '올해의 운전자 안전 솔루션' 선정",
+      "url": "https://news.harman.com/releases/harman-ready-aware-recognized-as-driver-safety-solution-of-the-year-by-autotech-breakthrough",
+      "date": "2026-10-15",
+      "source": "HARMAN 보도자료",
+      "summary": "교통·도로·기상 위험을 미리 알려 주는 클라우드 기반 서비스로, 별도 센서 없이 기존 차량 통신만으로 작동하며 오경보를 줄이는 신뢰도 점수와 소프트웨어 업데이트를 내세운다.",
+      "why": "LG가 ITS 총회에서 미는 V2N 기반 위험 경고와 기능이 정면으로 겹친다. HARMAN은 '하드웨어 추가 없이 소프트웨어로'를 강조하므로, LG는 텔레매틱스 하드웨어·V2X·V2N 서버까지 아우르는 통합 가치를 유럽 OEM에 분명히 설명해야 한다."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery)와 협력을 유럽으로 확대…유럽 생산 차량에 에어백 제어기 공급",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20261015-chery-europe-agreement.html",
+      "date": "2026-10-15",
+      "source": "AUMOVIO 보도자료",
+      "summary": "체리가 유럽에서 생산할 차량용 에어백 제어기(ACU) 공급사로 AUMOVIO를 지정했고, 유럽 공장에서 현지 생산한다. 앞으로 선택 프로젝트에서 전체 제품군, 현지 R&D, 생산, 애프터서비스까지 지원할 계획이다.",
+      "why": "제품은 LG VS와 겹치지 않지만, 유럽에 진출하는 중국 OEM을 '현지 개발·생산·공급' 패키지로 먼저 잡고 있다. 협력 범위가 전체 포트폴리오로 넓어지면 인포테인먼트·디스플레이 분야까지 이어질 수 있어 지켜볼 필요가 있다."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "2026년 상반기 실적: 전망 유지 (모빌리티 수익성 하락)",
+      "url": "https://www.bosch-presse.de/pressportal/de/en/half-year-figures-2026-bosch-reaffirms-outlook-285632.html",
+      "date": "2026-09-23",
+      "source": "Bosch 보도자료",
+      "summary": "모빌리티 부문 상반기 매출은 278억 유로로 소폭 줄었고 영업이익률은 4.7%로 낮아졌다. 이후 10월 보도자료는 스타트업 투자·인사 등이라 모빌리티 신규 발표는 없다.",
+      "why": "수익성 압박 속에서도 콕핏·ADAS 통합 컴퓨터 전략을 이어가고 있어, 단독 인포테인먼트 헤드유닛 수요를 잠식할 수 있다. 반면 LG와는 자동차용 칩렛 협력이 거론되는 관계이기도 해, 경쟁과 협력을 함께 봐야 한다."
+    }
+  ],
+  "competitors_note": "LG 보도자료·Bosch·HARMAN·AUMOVIO 지정 목록 페이지는 접근 승인 대기가 만료돼 직접 열지 못했어요. 같은 회사의 다른 공식 목록 페이지와 검색 결과로 확인했고, 현대모비스는 언론 기사를 썼어요.",
+  "watch": [
+    "토요타 등과의 공동선언이 Euro NCAP 협력형 안전 기준 연계를 내세우는 만큼, 유럽 OEM 제안서에서 Euro NCAP 대응 근거로 활용할 수 있다. 10/22 글로벌 OEM 대상 V2N 세션 반응도 확인해 볼 만하다.",
+    "현대모비스가 10/27~29 볼프스부르크 IZB에서 디스플레이를 앞세워 폭스바겐 등 유럽 OEM을 공략한다. 같은 고객 접점에서 LG의 차량 디스플레이·통합 콕핏(르노 SDV 수주 등) 레퍼런스를 준비해 둘 필요가 있다.",
+    "HARMAN Ready Aware(소프트웨어 전용)와 비교될 때, LG는 하드웨어·V2X·V2N 서버를 모두 갖춘 통합 공급을 차별점으로 내세울 수 있다."
+  ],
+  "articles": [
+    {"id": 1, "title": "LG Electronics Advances Cooperative Safety Vision at 2026 ITS World Congress", "url": "https://www.prnewswire.com/news-releases/lg-electronics-advances-cooperative-safety-vision-at-2026-its-world-congress-302913311.html", "source": "PR Newswire (LG전자 영문 보도자료)", "published": "10.20 10:00"},
+    {"id": 2, "title": "LG전자, '세계 교통 올림픽'서 사고 방지 솔루션 시연", "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7189839", "source": "주간한국", "published": "10.20 15:17"},
+    {"id": 3, "title": "LG전자, 강릉 ITS 세계총회서 사고방지 교통안전 솔루션 시연", "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1426952", "source": "연합뉴스", "published": "10.20 10:00"}
+  ]
+}
