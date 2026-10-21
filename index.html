@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#ecebe6; --sheet:#f7f6f2; --ink:#1c1c1e; --muted:#6d6b66; --rule:#1c1c1e; --hair:#cfccc4;
+  --paper:#e6e9ee; --sheet:#f5f7fa; --ink:#1c1c1e; --muted:#6d6b66; --rule:#1c1c1e; --hair:#cdd2da;
   --lg:#a50034; --lg-soft:#f6dfe6;
   --blue:#2f6fde; --purple:#7b4fe0; --green:#16935f; --orange:#e5761b; --red:#d43d3d; --gray:#6b6b6b;
   --memo:#fff3a6; --memo-ink:#3a3420;
@@ -41,19 +41,18 @@ a{color:inherit}
 .dateline .issue{font-family:var(--serif);font-weight:900}
 
 /* ---------- lead story ---------- */
-.lead{background:var(--sheet);margin-top:18px;padding:20px 20px 18px;border:1.5px solid var(--rule);position:relative}
+.lead{margin-top:20px;padding:4px 0 18px;border-bottom:1.5px solid var(--rule);position:relative}
 .lead .label{display:inline-block;background:var(--lg);color:#fff;font-weight:800;font-size:12px;letter-spacing:.06em;padding:3px 10px;border-radius:3px}
 .lead h1{font-family:var(--serif);font-weight:900;font-size:clamp(26px,6.2vw,40px);line-height:1.25;margin:10px 0 6px;word-break:keep-all}
 .lead .meta{font-size:13px;color:var(--muted)}
 .counts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.count{display:flex;align-items:center;gap:6px;background:var(--paper);border:1px solid var(--hair);border-radius:999px;padding:3px 12px 3px 4px;font-size:13px;font-weight:600}
-.count i{font-style:normal;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:13px;background:var(--sheet);border:1px solid var(--hair)}
+.count{display:inline-block;background:var(--sheet);border:1px solid var(--hair);border-radius:999px;padding:3px 12px;font-size:13px;font-weight:600}
+.count b{font-weight:800;color:var(--lg)}
 
 /* ---------- section heads ---------- */
 .sh{display:flex;align-items:center;gap:10px;margin:34px 0 12px}
 .sh h2{font-family:var(--serif);font-weight:900;font-size:22px;margin:0;white-space:nowrap}
 .sh .bar{flex:1;height:0;border-top:1.5px solid var(--rule)}
-.sh .em{font-size:22px}
 
 /* ---------- 한눈에 (key points) ---------- */
 .points{display:grid;grid-template-columns:1fr;gap:12px;counter-reset:p}
@@ -67,7 +66,7 @@ a{color:inherit}
 
 /* ---------- topic stories ---------- */
 .topic{margin-top:14px;background:var(--sheet);border:1px solid var(--hair);border-top:5px solid var(--c);border-radius:4px 4px 14px 14px;padding:4px 18px 8px}
-.topic .tag{display:inline-flex;align-items:center;gap:6px;margin:12px 0 2px;font-weight:800;font-size:14px;color:var(--c)}
+.topic .tag{display:inline-flex;align-items:center;gap:6px;margin:12px 0 2px;font-weight:800;font-size:13px;letter-spacing:.04em;color:var(--c)}
 .topic .tag small{font-weight:500;color:var(--muted);font-size:12px}
 .story{display:grid;grid-template-columns:64px 1fr;gap:14px;padding:14px 0;border-top:1px dashed var(--hair)}
 .story:first-of-type{border-top:0}
@@ -139,7 +138,7 @@ footer{margin-top:40px;padding-top:10px;border-top:3px double var(--rule);font-s
       <label>지난 호 <select id="dates" aria-label="날짜 선택"></select></label>
     </div>
   </header>
-  <main id="main"><div class="empty" style="margin-top:18px">신문을 펼치는 중… 📰</div></main>
+  <main id="main"><div class="empty" style="margin-top:18px">신문을 펼치는 중…</div></main>
   <footer>요약은 자동 생성되어 오류가 있을 수 있어요. 중요한 내용은 원문 링크에서 확인하세요.</footer>
 </div>
 <script>
@@ -188,8 +187,8 @@ async function getJSON(path){
   return r.json();
 }
 
-function sectionHead(emoji, title){
-  return `<div class="sh"><span class="em">${emoji}</span><h2>${esc(title)}</h2><span class="bar"></span></div>`;
+function sectionHead(title){
+  return `<div class="sh"><h2>${esc(title)}</h2><span class="bar"></span></div>`;
 }
 
 function render(rep){
@@ -203,23 +202,23 @@ function render(rep){
   let h = `<section class="lead"><span class="label">오늘의 1면</span>`
     + `<h1>${esc(rep.headline || "LG전자 VS(전장) 뉴스 브리핑")}</h1>`
     + `<div class="counts">`
-    + `<span class="count"><i>📰</i>LG VS 기사 ${arts.length}건</span>`
-    + `<span class="count"><i>🧭</i>주제 ${(rep.sections||[]).filter(s => s.items?.length).length}개</span>`
-    + (comps.length ? `<span class="count"><i>🚨</i>경쟁사 견제 높음 ${highs}건</span>` : "")
+    + `<span class="count">LG VS 기사 <b>${arts.length}</b>건</span>`
+    + `<span class="count">주제 <b>${(rep.sections||[]).filter(s => s.items?.length).length}</b>개</span>`
+    + (comps.length ? `<span class="count">경쟁사 견제 높음 <b>${highs}</b>건</span>` : "")
     + `</div></section>`;
 
   if (rep.key_points?.length){
-    h += sectionHead("⚡", "한눈에 보기")
+    h += sectionHead("한눈에 보기")
       + `<div class="points">${rep.key_points.map(p => `<div class="point">${esc(p)}</div>`).join("")}</div>`;
   }
 
   const secs = (rep.sections||[]).filter(s => s.items?.length);
   if (secs.length){
-    h += sectionHead("🗞️", "오늘의 기사");
+    h += sectionHead("오늘의 기사");
     for (const sec of secs){
       const st = topicStyle(sec.topic);
       const [main, sub] = (sec.topic||"기타").split(/[(（]/);
-      h += `<section class="topic" style="--c:${st.color}"><div class="tag">${st.emoji} ${esc(main.trim())}${sub ? ` <small>${esc(sub.replace(/[)）]$/,""))}</small>` : ""}</div>`;
+      h += `<section class="topic" style="--c:${st.color}"><div class="tag">${esc(main.trim())}${sub ? ` <small>${esc(sub.replace(/[)）]$/,""))}</small>` : ""}</div>`;
       for (const it of sec.items){
         const links = (it.article_ids||[]).map(i => byId[i]).filter(Boolean)
           .map(a => `<a href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener">${esc(a.source)}</a>`).join("");
@@ -229,11 +228,11 @@ function render(rep){
       h += `</section>`;
     }
   } else if (!arts.length) {
-    h += sectionHead("🗞️", "오늘의 기사") + `<div class="empty">오늘은 새 VS 기사가 없어요. 경쟁사 소식을 확인해 보세요 👇</div>`;
+    h += sectionHead("오늘의 기사") + `<div class="empty">오늘은 새 VS 기사가 없어요. 경쟁사 소식을 확인해 보세요.</div>`;
   }
 
   if (comps.length){
-    h += sectionHead("📡", "경쟁사 레이더")
+    h += sectionHead("경쟁사 레이더")
       + `<div class="radar">${comps.map(c => {
         const [lvText, lv] = LV[c.level] || LV.mid;
         return `<div class="rc ${lv}">`
@@ -244,15 +243,15 @@ function render(rep){
           + (c.why ? `<div class="why"><b>LG VS 관점 ·</b> ${esc(c.why)}</div>` : "")
           + `</div>`;
       }).join("")}</div>`
-      + (rep.competitors_note ? `<p class="note">ℹ️ ${esc(rep.competitors_note)}</p>` : "");
+      + (rep.competitors_note ? `<p class="note">${esc(rep.competitors_note)}</p>` : "");
   }
 
   if (rep.watch?.length){
-    h += `<aside class="memo"><h2>📌 영업 메모</h2><ul>${rep.watch.map(w => `<li>${esc(w)}</li>`).join("")}</ul></aside>`;
+    h += `<aside class="memo"><h2>영업 메모</h2><ul>${rep.watch.map(w => `<li>${esc(w)}</li>`).join("")}</ul></aside>`;
   }
 
   if (arts.length){
-    h += sectionHead("🔗", "원문 기사")
+    h += sectionHead("원문 기사")
       + `<div class="idx">${arts.map((a,i) => `<a class="row" href="${esc(safeUrl(a.url))}" target="_blank" rel="noopener"><span class="n">${i+1}</span><span class="t">${esc(a.title)}</span><span class="s"><em>${esc(a.source)}</em>${esc(a.published||"")}</span></a>`).join("")}</div>`;
   }
   $("#main").innerHTML = h;
@@ -266,7 +265,7 @@ async function load(date){
 (async () => {
   try { DATES = (await getJSON("reports/index.json")).dates || []; } catch(e) {}
   if (!DATES.length){
-    $("#main").innerHTML = `<div class="empty" style="margin-top:18px">첫 호는 다음 오전 10시 전후에 발행돼요 📰</div>`;
+    $("#main").innerHTML = `<div class="empty" style="margin-top:18px">첫 호는 다음 오전 10시 전후에 발행돼요.</div>`;
     $("#dates").parentElement.style.display = "none";
     return;
   }
