@@ -1,11 +1,12 @@
 {
   "date": "2026-10-21",
-  "headline": "ITS 총회서 토요타 등과 협력형 V2X 공동선언 추진",
+  "headline": "ITS 총회 V2X·V2N 시연, 텔레매틱스 1위 강조",
   "key_points": [
-    "LG전자는 해외용 영문 보도자료에서, 강릉 ITS 세계총회에서 Euro NCAP 협력형 안전 시나리오에 맞춘 V2X·V2N 통합 안전 플랫폼을 처음 시연한다고 밝혔다. '최초'는 회사 내부 조사에 근거한 주장이다.",
-    "토요타, 지역 ITS 협회들과 '무사고 사회를 향하여' 세션에 함께 나서고, 참여자들은 협력형 V2X 확산과 NCAP 안전 기준 연계를 담은 공동선언을 낼 계획이다.",
-    "실도로 시연은 10/20~22에 진행되며, LG 텔레매틱스 하드웨어·V2X 장치·보행자 앱으로 가려진 교차로 위험과 보행자·자전거 감지를 보여 준다. 10/22에는 글로벌 완성차를 대상으로 한 V2N 활용 세션이 열린다.",
-    "국내 후속 보도는 2.6km 시승 시연, 고장 차량·공사·구급차 접근 경고, Euro NCAP 최고 등급 기준 충족 등 어제 공개된 내용을 다시 전했다."
+    "LG전자는 강릉 ITS 세계총회(10/19~23)에서 V2X와 V2N을 결합한 통합 교통안전 솔루션을 약 2.6km 실도로에서 시연하고 있으며, 시연은 10/22까지 이어진다.",
+    "토요타·지역 ITS 협회와 '무사고 사회' 세션에 참여하며, 참여자들은 SDV 구조 확대·OTA 서비스·협력형 V2X 확산·NCAP 기준 연계를 담은 공동선언을 낼 계획이다.",
+    "10/22에는 글로벌 완성차를 대상으로 V2N 서비스 활용 사례를 발표하는 세션이 열린다.",
+    "후속 보도는 이 솔루션이 Euro NCAP 최고 등급 기준을 충족하고, 5G 스마트 텔레매틱스가 유럽 완성차 양산 모델에 이미 적용됐다고 전했다. 텔레매틱스 점유율 1위는 테크인사이트 자료를 바탕으로 한 LG 자체 추정이다.",
+    "서울파이낸스는 V2X 확산에 통신표준 정비, 도로 인프라, 완성차 채택 확대, 보안·통신 안정성 확보가 과제로 남아 있다고 짚었다."
   ],
   "sections": [
     {
@@ -13,8 +14,10 @@
       "items": [
         {
           "title": "토요타·ITS 협회와 '무사고 사회' 세션 및 공동선언",
-          "summary": "LG는 세션에서 글로벌 검증 경험과 Euro NCAP 요구에 맞춘 협력형 V2X 활용 사례를 공유한다. 공동선언에는 SDV 구조 확대, OTA 서비스 강화, 협력형 V2X 확산, NCAP 기준 연계가 우선 과제로 담길 예정이다.",
-          "article_ids": [1]
+          "summary": "공동선언에는 SDV 구조 확대, OTA 서비스 강화, 협력형 V2X 확산, NCAP 안전 기준 연계가 우선 과제로 담길 예정이다. 10/22에는 글로벌 완성차 대상 V2N 세션도 열린다.",
+          "article_ids": [
+            1
+          ]
         }
       ]
     },
@@ -22,9 +25,33 @@
       "topic": "제품·기술(인포테인먼트·텔레매틱스·SDV)",
       "items": [
         {
-          "title": "V2X·V2N 통합 안전 플랫폼 실도로 시연 계속",
-          "summary": "근거리 직접 통신(V2X)과 클라우드 기반 V2N을 묶고, 메시지 보안과 통신 품질 관리를 포함했다. V2N 서버는 5GAA와 ITS Korea 표준을 바탕으로 만들었다.",
-          "article_ids": [1, 2, 3]
+          "title": "V2X·V2N 통합 안전 솔루션 실도로 시연",
+          "summary": "노변기지국 범위 안에서는 V2X와 V2N 정보를 함께 쓰고, 그 밖에서는 V2N으로 고장 차량·공사·악천후·구급차 접근·보행자 충돌 위험을 미리 알린다.",
+          "article_ids": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "title": "텔레매틱스 레퍼런스: 유럽 5G 양산·GV90 통신제어",
+          "summary": "5G 릴리즈16 스마트 텔레매틱스를 유럽 완성차 양산 모델에 적용했고, 2G~5G 하이브리드 긴급호출(eCall)과 제네시스 GV90용 차량 통신제어시스템도 공급한다고 소개됐다.",
+          "article_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "시장·경쟁·규제",
+      "items": [
+        {
+          "title": "V2X 확산의 과제",
+          "summary": "SDV 전환과 안전규제 강화가 성장 기회로 꼽히지만, 통신표준 정비·인프라 구축·완성차 채택 확대와 보안·통신 안정성 확보가 필요하다는 분석이 함께 나왔다.",
+          "article_ids": [
+            2
+          ]
         }
       ]
     }
@@ -71,15 +98,40 @@
       "why": "수익성 압박 속에서도 콕핏·ADAS 통합 컴퓨터 전략을 이어가고 있어, 단독 인포테인먼트 헤드유닛 수요를 잠식할 수 있다. 반면 LG와는 자동차용 칩렛 협력이 거론되는 관계이기도 해, 경쟁과 협력을 함께 봐야 한다."
     }
   ],
-  "competitors_note": "LG 보도자료·Bosch·HARMAN·AUMOVIO 지정 목록 페이지는 접근 승인 대기가 만료돼 직접 열지 못했어요. 같은 회사의 다른 공식 목록 페이지와 검색 결과로 확인했고, 현대모비스는 언론 기사를 썼어요.",
+  "competitors_note": "오늘은 Bosch·AUMOVIO·HARMAN 보도자료 페이지가 정상 로드됐어요. 세 회사 모두 어제 이후 새 차량 전자 발표가 없어 기존 소식을 유지했고, 현대모비스는 보도자료 목록이 로드되지 않아 언론 기사를 썼어요.",
   "watch": [
-    "토요타 등과의 공동선언이 Euro NCAP 협력형 안전 기준 연계를 내세우는 만큼, 유럽 OEM 제안서에서 Euro NCAP 대응 근거로 활용할 수 있다. 10/22 글로벌 OEM 대상 V2N 세션 반응도 확인해 볼 만하다.",
-    "현대모비스가 10/27~29 볼프스부르크 IZB에서 디스플레이를 앞세워 폭스바겐 등 유럽 OEM을 공략한다. 같은 고객 접점에서 LG의 차량 디스플레이·통합 콕핏(르노 SDV 수주 등) 레퍼런스를 준비해 둘 필요가 있다.",
-    "HARMAN Ready Aware(소프트웨어 전용)와 비교될 때, LG는 하드웨어·V2X·V2N 서버를 모두 갖춘 통합 공급을 차별점으로 내세울 수 있다."
+    "10/22 글로벌 OEM 대상 V2N 세션과 토요타 등과의 공동선언(NCAP 연계)을 유럽 OEM 제안서의 Euro NCAP 대응 근거로 활용할 수 있다.",
+    "HARMAN Ready Aware는 '하드웨어 없이 소프트웨어만으로' V2N 경고를 내세운다. LG는 텔레매틱스 하드웨어·eCall·V2X·V2N 서버를 아우르는 통합 공급과 유럽 5G 양산 레퍼런스를 차별점으로 설명할 필요가 있다.",
+    "현대모비스가 10/27~29 볼프스부르크 IZB에서 AR HUD·슬라이딩 디스플레이로 폭스바겐 등 유럽 OEM을 공략한다. 같은 고객 접점에서 LG의 디스플레이·통합 콕핏(르노 SDV) 레퍼런스를 준비해 둘 만하다."
   ],
   "articles": [
-    {"id": 1, "title": "LG Electronics Advances Cooperative Safety Vision at 2026 ITS World Congress", "url": "https://www.prnewswire.com/news-releases/lg-electronics-advances-cooperative-safety-vision-at-2026-its-world-congress-302913311.html", "source": "PR Newswire (LG전자 영문 보도자료)", "published": "10.20 10:00"},
-    {"id": 2, "title": "LG전자, '세계 교통 올림픽'서 사고 방지 솔루션 시연", "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7189839", "source": "주간한국", "published": "10.20 15:17"},
-    {"id": 3, "title": "LG전자, 강릉 ITS 세계총회서 사고방지 교통안전 솔루션 시연", "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1426952", "source": "연합뉴스", "published": "10.20 10:00"}
+    {
+      "id": 1,
+      "title": "LG Electronics Advances Cooperative Safety Vision at 2026 ITS World Congress",
+      "url": "https://www.prnewswire.com/news-releases/lg-electronics-advances-cooperative-safety-vision-at-2026-its-world-congress-302913311.html",
+      "source": "PR Newswire (LG전자 영문 보도자료)",
+      "published": "10.20 10:00"
+    },
+    {
+      "id": 2,
+      "title": "LG전자, 車 통신 넘어 교통안전 시장 공략···V2X로 전장사업 영토 넓힌다",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=640463",
+      "source": "서울파이낸스",
+      "published": "10.21 21:30"
+    },
+    {
+      "id": 3,
+      "title": "LG전자, 차량·도로·클라우드 연결 고도화…글로벌 교통안전 시장 공략",
+      "url": "https://www.ittimes.com/news/articleView.html?idxno=87513",
+      "source": "IT Times",
+      "published": "10.20 11:32"
+    },
+    {
+      "id": 4,
+      "title": "LG전자 'V2X·V2N 결합' 교통안전 기술 공개",
+      "url": "https://biz.heraldcorp.com/article/10908516",
+      "source": "헤럴드경제",
+      "published": "10.20 11:43"
+    }
   ]
 }
