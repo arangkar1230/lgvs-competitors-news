@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The VS Daily · LG VS 뉴스 브리핑</title>
+<title>LG VS + 경쟁사 브리핑</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;900&display=swap" rel="stylesheet">
@@ -33,9 +33,11 @@ a{color:inherit}
 /* ---------- masthead ---------- */
 .mast{text-align:center;padding:6px 0 0}
 .mast .top{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--muted);letter-spacing:.04em;border-bottom:1px solid var(--rule);padding-bottom:6px}
-.mast .name{font-family:var(--serif);font-weight:900;font-size:clamp(40px,11vw,76px);line-height:1;letter-spacing:-.02em;margin:14px 0 6px}
+.mast .name{font-family:var(--serif);font-weight:900;font-size:clamp(30px,8.4vw,62px);line-height:1.1;letter-spacing:-.03em;margin:14px 0 8px;word-break:keep-all}
 .mast .name .vs{color:var(--lg)}
-.mast .kicker{font-size:14px;color:var(--muted);margin-bottom:10px}
+.mast .kicker{font-size:14px;color:var(--muted);margin-bottom:10px;word-break:keep-all}
+.mast .top span{white-space:nowrap}
+@media (max-width:480px){.mast .top{flex-wrap:wrap;justify-content:center;font-size:11px;gap:2px 10px}}
 .dateline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;border-top:3px double var(--rule);border-bottom:3px double var(--rule);padding:7px 2px;font-size:14px;font-weight:600}
 .dateline select{font:inherit;font-size:14px;color:var(--ink);background:var(--sheet);border:1.5px solid var(--rule);border-radius:999px;padding:3px 10px;cursor:pointer}
 .dateline .issue{font-family:var(--serif);font-weight:900}
@@ -130,8 +132,8 @@ footer{margin-top:40px;padding-top:10px;border-top:3px double var(--rule);font-s
 <div class="wrap">
   <header class="mast">
     <div class="top"><span>LG ELECTRONICS · VEHICLE SOLUTION</span><span>매일 오전 10시 발행</span></div>
-    <div class="name">The <span class="vs">VS</span> Daily</div>
-    <div class="kicker">LG VS + 경쟁사 뉴스 브리핑</div>
+    <div class="name">LG <span class="vs">VS</span> + 경쟁사 브리핑</div>
+    <div class="kicker">LG전자 VS사업본부 · Bosch · AUMOVIO · HARMAN · 현대모비스</div>
     <div class="dateline">
       <span id="dateText">—</span>
       <span class="issue" id="issue"></span>
