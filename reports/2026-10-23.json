@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-23",
+  "headline": "ITS 총회 마무리…보쉬, 모빌리티 분사 발표",
+  "key_points": [
+    "최근 24시간 안에 나온 LG전자 VS 신규 수주·실적 발표는 찾지 못했어요. 그래서 오늘 막을 내리는 강릉 ITS 세계총회 관련 보도(최근 3일)를 정리했어요.",
+    "LG전자는 V2X 직접통신과 V2N 이동통신망을 묶은 'Soft V2X' 플랫폼을 약 2.6km 실도로에서 시연했어요. Euro NCAP 협력 안전 시나리오에 맞춰 설계했다고 밝혔어요.",
+    "LG 글로벌 뉴스룸에 따르면 LG는 토요타·지역 ITS 협회들과 '사고 없는 사회' 세션에 참여해 공동 선언을 내기로 했어요. SDV 아키텍처 확장, OTA 서비스, C-V2X 도입 가속, NCAP 정합성이 주요 과제예요.",
+    "LG는 텔레매틱스 세계 점유율 1위(자사 추정)를 내세우며 eCall·커넥티드카 사업 확대를 강조했어요. 'Euro NCAP 최고 등급 기준 충족', '세계 최초 시연'은 회사 측 주장이에요.",
+    "경쟁사 쪽에서는 보쉬가 10/22 독일 모빌리티 부문을 별도 자회사로 분리한다고 발표해, 유럽 공급망 구도에 변화가 예상돼요."
+  ],
+  "sections": [
+    {
+      "topic": "제품·기술(인포테인먼트·텔레매틱스·SDV)",
+      "items": [
+        {
+          "title": "V2X·V2N 통합 'Soft V2X' 실도로 시연",
+          "summary": "V2X는 가까운 위험을 빠르게, V2N은 넓은 지역 정보를 맡아 통신 환경이 바뀌어도 경고가 끊기지 않게 했어요. 고장 차량, 공사, 악천후, 구급차 접근, 보행자 충돌 위험을 미리 알려요.",
+          "article_ids": [1, 2, 3]
+        },
+        {
+          "title": "텔레매틱스·eCall 레퍼런스로 커넥티드카 사업 확대",
+          "summary": "LG는 유럽 완성차 양산 모델의 5G 스마트 텔레매틱스, 제네시스 GV90 통신제어 공급을 사례로 들며 텔레매틱스 1위(자사 추정)를 강조했어요.",
+          "article_ids": [2, 3]
+        }
+      ]
+    },
+    {
+      "topic": "파트너십·전시회",
+      "items": [
+        {
+          "title": "토요타 등과 협력형 안전 공동 선언 추진",
+          "summary": "LG는 토요타·지역 ITS 협회와 공동 선언을 내고, 10/22에는 글로벌 완성차용 V2N 서비스 활용 사례를 발표하기로 했어요. ITS 세계총회는 오늘(10/23) 끝나요.",
+          "article_ids": [1]
+        }
+      ]
+    }
+  ],
+  "competitors": [
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "HARMAN Ready Aware, AutoTech Breakthrough '올해의 운전자 안전 솔루션' 선정",
+      "url": "https://news.harman.com/releases/harman-ready-aware-recognized-as-driver-safety-solution-of-the-year-by-autotech-breakthrough",
+      "date": "2026-10-15",
+      "source": "HARMAN 보도자료",
+      "summary": "추가 센서 없이 기존 차량 통신만으로 교통·도로·기상 위험과 긴급차량 접근을 알리는 클라우드 기반 V2N 경고 서비스예요. 오경보를 줄이는 신뢰도 점수와 소프트웨어 업데이트를 강조해요.",
+      "why": "LG가 ITS 총회에서 내세운 V2N 경고 기능과 정면으로 겹쳐요. HARMAN은 '소프트웨어만으로'를 내세우니, LG는 텔레매틱스·eCall·V2X를 함께 공급하는 통합 가치를 유럽 OEM에 분명히 보여 줘야 해요."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "독일 모빌리티 부문을 별도 자회사로 분리…2027년 8월 출범",
+      "url": "https://thebrakereport.com/bosch-mobility-separate-subsidiary-reorganization/",
+      "date": "2026-10-22",
+      "source": "The Brake Report (Bosch 발표 인용)",
+      "summary": "보쉬는 독일 모빌리티 사업과 3개 중앙 서비스 조직을 100% 자회사로 분리해 2027년 8월 1일 출범시키기로 했어요. 약 6만 2,500명이 옮겨 가며, 모빌리티는 2025년 매출 558억 유로로 그룹의 약 60%를 차지해요.",
+      "why": "아시아 경쟁 심화를 이유로 의사결정을 빠르게 하고 '원스톱 통합 솔루션'과 전략적 파트너십 여지를 넓히겠다는 구조 개편이에요. 유럽 OEM 입찰에서 보쉬가 더 공격적인 가격·제휴로 나올 수 있어요."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery)와 협력을 유럽으로 확대…유럽 생산 차량에 에어백 제어기 공급",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20261015-chery-europe-agreement.html",
+      "date": "2026-10-15",
+      "source": "AUMOVIO 보도자료",
+      "summary": "체리가 유럽에서 만들 차량의 에어백 제어기 공급사로 AUMOVIO를 골랐어요. 두 회사는 1999년부터 중국에서 브레이크·제어기·센서·디스플레이 등으로 협력해 왔어요.",
+      "why": "제품은 LG VS와 직접 겹치지 않지만, 유럽에 진출하는 중국 OEM을 현지 생산·R&D 패키지로 먼저 잡고 있어요. 기존 디스플레이 공급 관계가 유럽 모델로 이어질 수 있어요."
+    },
+    {
+      "company": "현대모비스",
+      "level": "mid",
+      "title": "차량용 반도체 국산화 포럼…이르면 2029년 양산차 적용",
+      "url": "https://www.mt.co.kr/industry/2026/10/22/2026102119482863216",
+      "date": "2026-10-22",
+      "source": "머니투데이",
+      "summary": "현대모비스는 국내 기업과 시스템반도체 공동 과제 19개를 발굴해 13개 개발에 착수했고, 9개는 적용 차종이 정해졌어요. 이규석 사장은 국산 차량용 칩이 이르면 2029년 양산차에 들어갈 수 있다고 밝혔어요.",
+      "why": "LG VS 고객사인 현대차그룹에서 모비스가 칩까지 수직 계열화를 넓히고 있어요. 차량용 이더넷 등 통신 칩까지 확보하면 장기적으로 원가·통합 제안력이 커질 수 있어요."
+    }
+  ],
+  "competitors_note": "회사 보도자료 페이지 4곳 모두 이번 실행에서 열지 못해 검색으로 찾은 개별 기사·보도자료를 열어 확인했어요. Bosch는 업계지(The Brake Report)·로이터 인용 기사를 썼고, HARMAN·AUMOVIO는 새 차량 전자 발표가 없어 기존 소식을 유지했어요.",
+  "watch": [
+    "보쉬 모빌리티 분사는 유럽 OEM 구매 부서의 공급사 평가에도 화제가 될 거예요. 전환기(2027년)에 프로젝트 연속성을 걱정하는 고객에게 LG의 안정적 공급·양산 레퍼런스를 강조할 기회예요.",
+    "HARMAN Ready Aware의 '소프트웨어만으로 되는 V2N'에 맞서, LG는 ITS 총회 시연과 토요타 등과의 공동 선언을 근거로 하드웨어+V2X+V2N 통합 가치를 제안서에 담아 둘 만해요. 'Euro NCAP 최고 등급 충족'은 회사 주장이니 평가 근거를 함께 챙겨야 해요.",
+    "다음 주(10/27~29) 볼프스부르크 IZB에는 폭스바겐 등 유럽 OEM 구매 담당이 모여요. 경쟁사 출품에 대비해 LG의 통합 콕핏(르노 SDV)·5G 텔레매틱스 자료를 준비해 두면 좋아요."
+  ],
+  "articles": [
+    {"id": 1, "title": "LG Electronics Advances Cooperative Safety Vision at 2026 ITS World Congress", "url": "https://www.lg.com/global/newsroom/news/vehicle-solutions/lg-electronics-advances-cooperative-safety-vision-at-2026-its-world-congress/", "source": "LG전자 글로벌 뉴스룸", "published": "10.20"},
+    {"id": 2, "title": "교통사고 막는 차량 통신 기술로... LG전자, 글로벌 교통안전 솔루션 시장 공략", "url": "https://www.nnewss.com/news/articleView.html?idxno=7980", "source": "뉴뉴스", "published": "10.22 11:32"},
+    {"id": 3, "title": "LG전자, ITS 세계총회서 V2X·V2N 통합 교통안전 솔루션 공개", "url": "https://zdnet.co.kr/view/?no=20261020085925", "source": "지디넷코리아", "published": "10.20 10:00"}
+  ]
+}
