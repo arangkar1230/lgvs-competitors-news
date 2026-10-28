@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "headline": "오늘은 새 VS 소식이 없어요",
+  "key_points": [],
+  "sections": [],
+  "competitors": [
+    {
+      "company": "현대모비스",
+      "level": "high",
+      "title": "유럽 생산거점 확대·IZB 출전…현대차그룹 밖 유럽 OEM 공략",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261021010006713",
+      "date": "2026-10-20",
+      "source": "아시아투데이",
+      "summary": "현대모비스는 올해 헝가리(섀시 모듈, 벤츠 연계)·스페인(배터리 시스템, 폭스바겐 연계)·슬로바키아(e-액슬) 공장을 잇달아 가동했어요. 10/27~29 볼프스부르크 IZB에 3D AR HUD와 12월 양산 예정 슬라이딩 디스플레이 등을 내놨어요.",
+      "why": "현지 생산과 디스플레이·HUD를 묶어 폭스바겐 등 유럽 OEM에 직접 다가가고 있어요. LG VS의 차량 디스플레이·콕핏 제안과 같은 행사, 같은 고객에서 맞붙게 돼요."
+    },
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "HARMAN Ready Aware, AutoTech Breakthrough '올해의 운전자 안전 솔루션' 선정",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-15-harman-ready-aware-recognized-as-driver-safety-solution-of-the-year-by-autotech-breakthrough",
+      "date": "2026-10-15",
+      "source": "HARMAN 보도자료(Business Wire)",
+      "summary": "추가 센서나 통신 하드웨어 없이 기존 4G·5G 연결만으로 고장 차량·급제동·미끄러운 노면·차로 폐쇄 등을 미리 알리는 V2N 서비스로, 이 시상식에서 4년 연속 수상했어요. 오경보를 거르는 신뢰도 엔진과 15개 이상 사용 사례, OEM 자체 클라우드 운영을 내세워요.",
+      "why": "LG가 ITS 세계총회에서 내세운 V2N 경고 기능과 정면으로 겹쳐요. 하만이 '소프트웨어만으로'를 강조하니, LG는 텔레매틱스·eCall·V2X를 묶은 통합 가치를 유럽 OEM에 분명히 보여 줘야 해요."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "모빌리티 부문 등 독일 자회사 4곳 신설…2027년 8월 출범 (공식 발표)",
+      "url": "https://electrive.com/2026/10/23/bosch-faces-radical-corporate-restructuring-amid-competitive-pressures",
+      "date": "2026-10-22",
+      "source": "Bosch 발표(electrive 보도)",
+      "summary": "보쉬는 모빌리티 사업 등 4개 부문을 100% 자회사로 분리해 2027년 8월 1일 새 체제로 운영해요. 독일 인력 약 6만 2,500명이 옮겨 가며, 회사는 이번 개편 자체로 추가 감원은 없다고 밝혔어요.",
+      "why": "아시아 경쟁사의 압박을 이유로 혁신 속도와 수익성을 높이겠다고 했고, 업계는 부문별 매각·제휴·상장이 쉬워질 수 있다고 봐요. 유럽 OEM 입찰에서 보쉬가 더 공격적인 가격·제휴로 나올 수 있어요."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery)와 협력을 유럽으로 확대…유럽 생산 차량에 에어백 제어기 공급",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20261015-chery-europe-agreement.html",
+      "date": "2026-10-15",
+      "source": "AUMOVIO 보도자료",
+      "summary": "체리가 유럽에서 만들 차량의 에어백 제어기 공급사로 AUMOVIO를 골랐어요. AUMOVIO는 제품군·R&D·유럽 공장을 함께 내놓으며 1999년부터 이어 온 협력을 유럽으로 넓혀요.",
+      "why": "제품은 LG VS와 직접 겹치지 않지만, 유럽에 진출하는 중국 OEM을 현지 생산·R&D 패키지로 먼저 잡고 있어요. 이 관계가 디스플레이 등 다른 품목으로 이어질 수 있어요."
+    }
+  ],
+  "competitors_note": "LG 보도자료와 경쟁사 보도자료 페이지 4곳이 열리지 않아 검색으로 찾은 기사·보도자료를 직접 열어 확인했어요. 최근 3일 안에 새 LG VS 기사가 없었고, 경쟁사도 더 견제되는 새 발표가 없어 어제 소식을 유지했어요(하만 Ready Aware 발표일은 10/15로 바로잡음). AUMOVIO의 중국 OEM 위성 카메라 양산 수주(10/23), EU의 하만-ZF ADAS 인수 승인(10월 초)도 확인했지만 LG VS 유럽 영업과의 겹침이 작아 제외했어요.",
+  "watch": [
+    "볼프스부르크 IZB가 내일(10/29)까지 열려요. 현대모비스가 유럽 현지 생산과 3D AR HUD·슬라이딩 디스플레이를 묶어 폭스바겐 등에 제안하니, 르노 SDV 통합 콕핏 등 LG의 유럽 양산 레퍼런스와 공급 안정성 자료를 준비해 두면 좋아요.",
+    "이달 말부터 경쟁사와 LG전자의 3분기 실적 발표가 이어질 시기예요. 전장 부문 수익성과 그룹 밖 수주 메시지를 비교해 유럽 OEM 대응 논리에 반영해 두면 좋아요.",
+    "하만이 EU 승인을 받은 ZF ADAS 사업 인수로 콕핏·V2N에 ADAS까지 묶은 제안이 가능해질 수 있어요. 유럽 OEM에는 LG의 5G 텔레매틱스·eCall·V2X 통합 강점을 분명히 보여 주는 게 좋아요."
+  ],
+  "articles": []
+}
