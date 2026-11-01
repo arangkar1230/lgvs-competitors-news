@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01",
+  "headline": "오늘은 새 VS 소식이 없어요",
+  "key_points": [],
+  "sections": [],
+  "competitors": [
+    {
+      "company": "HARMAN",
+      "level": "high",
+      "title": "HARMAN Ready Aware, AutoTech Breakthrough '올해의 운전자 안전 솔루션' 선정",
+      "url": "https://news.harman.com/releases/harman-ready-aware-recognized-as-driver-safety-solution-of-the-year-by-autotech-breakthrough",
+      "date": "2026-10-15",
+      "source": "HARMAN 보도자료",
+      "summary": "추가 센서나 통신 하드웨어 없이 기존 4G·5G 연결만으로 고장 차량·급제동·미끄러운 노면·차로 폐쇄·신호 변경 등을 미리 알리는 클라우드 V2N 서비스로, 이 시상식에서 4년 연속 수상했어요.",
+      "why": "LG의 텔레매틱스·V2N 경고 기능과 정면으로 겹치고, OEM이 원하는 클라우드에서 소프트웨어 업데이트만으로 도입할 수 있다는 점을 앞세워요. 유럽 OEM에는 LG의 5G 텔레매틱스·eCall·V2X를 묶은 통합 가치를 분명히 보여 줘야 해요."
+    },
+    {
+      "company": "현대모비스",
+      "level": "mid",
+      "title": "3분기 영업이익 9,141억 원(+17.2%)…유럽 전기차 물량 증가로 전동화 매출↑",
+      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610300035",
+      "date": "2026-10-30",
+      "source": "한국경제TV",
+      "summary": "3분기 매출 15조 7,233억 원(+4.6%), 영업이익 9,141억 원(+17.2%)을 냈어요. 유럽 전기차 물량 증가로 전동화 매출이 늘었고, 전동화·전장 기술 경쟁력을 높이기 위해 올해 연구개발 투자가 처음으로 2조 원을 넘을 전망이에요.",
+      "why": "유럽 물량 증가로 체력이 붙은 만큼 디스플레이·콕핏 등 전장 분야 유럽 OEM 입찰에서 투자 여력을 앞세워 더 공격적으로 나올 수 있어요."
+    },
+    {
+      "company": "Bosch",
+      "level": "mid",
+      "title": "모빌리티 부문 등 독일 사업 4곳을 100% 자회사로 분리…2027년 8월 출범",
+      "url": "https://bicycleretailer.com/announcements/2026/10/23/bosch-reorganizing-its-corporate-structure",
+      "date": "2026-10-23",
+      "source": "Bosch 발표(Bicycle Retailer 게재)",
+      "summary": "모빌리티·Bosch Digital·글로벌 비즈니스 서비스·부동산 4개 부문을 별도 법인으로 나눠 2027년 8월 1일부터 운영해요. 독일 인력 약 6만 2,500명이 새 법인으로 옮기며, 모빌리티는 2025년 매출 558억 유로로 그룹 매출의 약 60%를 차지해요.",
+      "why": "모빌리티가 독립 법인이 되면 의사결정과 제휴·자본 조달이 빨라질 수 있어요. 유럽 OEM 콕핏·차량 컴퓨터 입찰에서 보쉬가 더 유연한 가격·제휴 조건으로 나올 가능성에 대비해야 해요."
+    },
+    {
+      "company": "AUMOVIO",
+      "level": "mid",
+      "title": "체리(Chery)와 협력을 유럽으로 확대…유럽 생산 차량에 에어백 제어기 공급",
+      "url": "https://www.aumovio.com/en/company/press/press-releases/20261015-chery-europe-agreement.html",
+      "date": "2026-10-15",
+      "source": "AUMOVIO 보도자료",
+      "summary": "체리가 유럽에서 생산할 차량의 에어백 제어기 공급사로 AUMOVIO를 골랐어요. AUMOVIO는 제품군·R&D·유럽 생산망을 함께 제공해 체리의 유럽 현지화를 돕기로 했어요.",
+      "why": "제품은 LG VS와 직접 겹치지 않지만, 유럽에 진출하는 중국 OEM을 현지 생산·R&D 패키지로 먼저 잡고 있어요. 이 관계가 디스플레이·콕핏 품목으로 번질 수 있어요."
+    }
+  ],
+  "competitors_note": "LG 보도자료와 4개 경쟁사 보도자료 페이지가 열리지 않아 검색으로 확인했어요. 최근 3일 안에 새로 나온 LG VS 기사는 찾지 못했어요(일요일). 경쟁사도 더 중요한 새 소식이 없어 어제의 4건을 유지했어요. 현대모비스 스페인 공장 배터리 부품 결함으로 현지 폭스바겐 공장이 한때 멈추고 법인장이 교체됐다는 보도(SBS Biz, 10/29)도 확인했어요.",
+  "watch": [
+    "현대모비스 스페인 공장의 배터리 부품 결함으로 폭스바겐 공장이 한때 멈췄다는 보도가 나왔어요. 품질 이슈는 유럽 OEM이 공급사를 고를 때 민감한 요소라, 폭스바겐그룹 등에 LG의 양산 품질·공급 안정성을 강조할 기회가 될 수 있어요.",
+    "보쉬 모빌리티 법인 분리, 하만 Ready Aware 같은 '소프트웨어만으로 도입' V2N 서비스에 맞서, 유럽 OEM에 LG 5G 텔레매틱스·eCall·V2X 통합 제안과 르노 SDV 통합 콕핏 레퍼런스를 계속 내세우면 좋아요."
+  ],
+  "articles": []
+}
